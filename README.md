@@ -2,44 +2,59 @@
 
 Uma pequena homenagem, pois foi um piloto que me fez entender a paixão que você tem que ter pelas coisas que você ama, que apesar das rivalidades que possam existir entre os pilotos, nunca deve tomá-los como obstáculos, que você deve amar seu país, sentir orgulho de sua nacionalidade, amar seu trabalho, que a vida é curta para ter inimigos, que se você tem um objetivo, vá em frente, haverá pessoas que nos querem prejudicar, mas você deve se levantar e continuar lutando. E como ele diz "Com seu poder mental, sua determinação, seu instinto e a experiência também, você pode voar muito alto". Ele inspirou muitos e continua inspirando gerações, está no coração de todos nós.
 
+  - [In Memoriam Ayrton Senna](https://ayrtonsenna-inmemoriam.netlify.app)
+
 ## Timeline Ayrton Senna 🏎️
 
-> Senna é realmente o melhor piloto do mundo, não só o mais rápido. 
+> **Senna é realmente o melhor piloto do mundo, não só o mais rápido.**
+> 
 > ~~ Jackie Stewart, 1991
->
-> O melhor piloto em Grandes Prémios, o melhor piloto do mundo de longe. 
+
+> **O melhor piloto em Grandes Prémios, o melhor piloto do mundo de longe.**
+> 
 > ~~ James Hunt, 1993
->
-> Sem dúvida o melhor piloto em Grandes Prémios da atualidade. 
+
+
+> **Sem dúvida o melhor piloto em Grandes Prémios da atualidade.**
+> 
 > ~~ Alan Jones, 1993
->
-> Ele é o maior piloto de Grande Prêmio do momento. 
+
+> **Ele é o maior piloto de Grande Prêmio do momento.**
+> 
 > ~~ John Watson, 1993
->
-> Provavelmente o maior piloto de corrida de todos os tempos. 
+
+> **Provavelmente o maior piloto de corrida de todos os tempos.**
+> 
 > ~~ James Hunt, Grande Prêmio do Canadá de 1993
->
-> Ayrton Senna é um gênio. Defino gênio como o lado certo do desequilíbrio. Ele é altamente desenvolvido a ponto de estar quase no limite. Foi por um triz. 
+
+> **Ayrton Senna é um gênio. Defino gênio como o lado certo do desequilíbrio. Ele é altamente desenvolvido a ponto de estar quase no limite. Foi por um triz.**
+> 
 > ~~ Martin Brundle, 1993
->
-> Tentei encontrar pontos fracos no Senna, mas não consegui. Ele está 100% em tudo. Aprendi muito com ele, então para mim foram três anos bons. E ainda gosto do Senna. A gente se divertiu muito, uma boa relação. 
+
+> **Tentei encontrar pontos fracos no Senna, mas não consegui. Ele está 100% em tudo. Aprendi muito com ele, então para mim foram três anos bons. E ainda gosto do Senna. A gente se divertiu muito, uma boa relação.**
+> 
 > ~~ Gerhard Berger, 1993
->
-> Ele foi o melhor piloto que já viveu. 
+
+> Ele foi o melhor piloto que já viveu.
+> 
 > ~~ Niki Lauda, 1994
->
-> Ele pode ter sido o maior piloto de todos os tempos. Ayrton Senna não tinha fraqueza. 
+
+> **Ele pode ter sido o maior piloto de todos os tempos. Ayrton Senna não tinha fraqueza.**
+> 
 > ~~ Michael Andretti, 1994
->
-> O Ayrton foi a pessoa mais incompreendida por aí porque ele recebeu um rap tão ruim na mídia. Posso garantir que ele era uma boa pessoa. Ele me apoiou muito no ano passado. 
+
+> **O Ayrton foi a pessoa mais incompreendida por aí porque ele recebeu um rap tão ruim na mídia. Posso garantir que ele era uma boa pessoa. Ele me apoiou muito no ano passado.**
+> 
 > ~~ Michael Andretti, 1994
->
-> Sua perda é impossível de quantificar. Todo mundo que já o conheceu em qualquer capacidade sente que perdeu alguém muito especial. 
+
+> **Sua perda é impossível de quantificar. Todo mundo que já o conheceu em qualquer capacidade sente que perdeu alguém muito especial.**
+> 
 > ~~ Frank Williams, 1994
->
-> Ele foi provavelmente o campeão mais rápido que já vi. Ele estava sempre esticando o elástico. Meu Deus foi rápido. 
+
+> **Ele foi provavelmente o campeão mais rápido que já vi. Ele estava sempre esticando o elástico. Meu Deus foi rápido.**
+> 
 > ~~ Jackie Stewart, 2004
->
+
 
 ### Resources
 
