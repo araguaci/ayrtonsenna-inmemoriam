@@ -10,7 +10,7 @@ export interface Props {
 	ogType?: string;
 }
 
-const { title, description, image = '/ayrton_senna.jpg', ogType = 'website' } = Astro.props;
+const { title, description, image = '/social_img.webp', ogType = 'website' } = Astro.props;
 ---
 
 <!-- Global Metadata -->
@@ -32,7 +32,7 @@ const { title, description, image = '/ayrton_senna.jpg', ogType = 'website' } = 
 <meta property="og:image" content={new URL(image, Astro.url)} />
 
 <!-- Twitter -->
-<meta property="twitter:card" content="/ayrton_senna.jpg" />
+<meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content={Astro.url} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
