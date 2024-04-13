@@ -2,6 +2,8 @@
 
 Uma pequena homenagem, pois foi um piloto que me fez entender a paixão que você tem que ter pelas coisas que você ama, que apesar das rivalidades que possam existir entre os pilotos, nunca deve tomá-los como obstáculos, que você deve amar seu país, sentir orgulho de sua nacionalidade, amar seu trabalho, que a vida é curta para ter inimigos, que se você tem um objetivo, vá em frente, haverá pessoas que nos querem prejudicar, mas você deve se levantar e continuar lutando. E como ele diz "Com seu poder mental, sua determinação, seu instinto e a experiência também, você pode voar muito alto". Ele inspirou muitos e continua inspirando gerações, está no coração de todos nós.
 
+  - [In Memoriam Ayrton Senna](https://ayrtonsenna-inmemoriam.netlify.app)
+
 ## Timeline Ayrton Senna 🏎️
 
 > Senna é realmente o melhor piloto do mundo, não só o mais rápido. 
