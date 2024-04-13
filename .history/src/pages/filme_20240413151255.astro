@@ -1,0 +1,102 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+import { getCollection } from "astro:content";
+import createSlug from "../lib/createSlug";
+import { YouTube } from "astro-embed";
+
+const posts = (await getCollection("blog")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const last_posts = posts.slice(0, 5);
+---
+
+<BaseLayout sideBarActiveItemID="filme">
+  <div class="pb-12 mt-5">
+    <div class="text-lg py-1 font-bold">A Trajetória de um Campeão</div>
+    <div class="text-xl py-1 font-bold">Ayrton Senna</div>
+    <div class="py-2">
+      <div class="flex">
+        <div class="text-2xl mb-4 text-justify">
+          Não foram poucos os cineastas que tiveram a intenção de fazer um filme sobre o excepcional piloto brasileiro Ayrton Senna da Silva, tricampeão mundial de F1, mas a família nunca permitiu. O documentário “SENNA o Brasileiro, o Herói, o Campeão”, lançado em 2010 foi dirigido pelo britânico Asif Kapadia, descendente de indianos.
+        </div>
+      </div>
+    </div>
+    <div class="py-2">
+      <div class="flex">
+        <div class="text-2xl mb-4 text-justify">
+          O filme centra o foco nos 10 anos em que Senna foi piloto da F1, entre 1984 e 1994. Há muitos depoimentos ao longo do documentário, vencedor de vários prêmios em muitos festivais, mas são as cenas reais dos duelos nas pistas, especialmente entre Senna e o francês Alain Prost, os maiores rivais daquela época, que emocionam. Senna era um piloto obstinado e sua habilidade em conduzir as potentes máquinas aparecia quando os demais pilotos amarelavam, na chuva.
+        </div>
+      </div>
+    </div>
+    <div class="py-2">
+      <div class="flex">
+        <div class="text-2xl mb-4 text-justify">
+          Quanto mais forte fosse a chuva, mais Senna se destacava. Disponível para locação, em blu-ray e DVD, na Nostalgia Filmes & Games. (JDC)
+        </div>
+      </div>
+    </div>
+    
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/oyr4UkyH0ds?si=zeg7hfjcXj8AsT13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
+    <div class="py-2 w-full" style="margin: auto;">
+      <YouTube id="lSeylfQE6t4" />
+    </div>    
+  </div>
+
+  <div>
+    <div class="text-xl w-full font-bold mb-5 mt-5">A Trajetória de um Campeão</div>
+  </div>
+
+  <div class="pb-12 mt-5">
+    <div class="py-2">
+      <div class="flex">
+        <div class="text-2xl mb-4 text-justify">
+          Ayrton Senna da Silva foi um piloto brasileiro de Fórmula 1, campeão da categoria três vezes, em 1988, 1990 e 1991. Ele começou sua carreira competindo no kart em 1973 e em "carros de fórmula" em 1981, quando venceu as Fórmulas Ford 1600 e 2000. Em 1983 alcançou o título de campeão do Campeonato Britânico de Fórmula 3 batendo vários recordes. Seu desempenho impulsionou sua ascensão à Fórmula 1, fazendo sua primeira aparição na categoria no Grande Prêmio do Brasil de 1984 pela equipe Toleman-Hart. Em sua primeira temporada, Senna pontuou em cinco corridas, fechando o ano com treze pontos e a nona posição na classificação geral dos pilotos. No ano seguinte, ingressou na Lotus-Renault, pela qual venceu seis grandes prêmios ao longo de três temporadas.
+        </div>
+      </div>
+    </div>
+    <div class="py-2">
+      <div class="flex">
+        <div class="text-2xl mb-4 text-justify">
+          Em 1988, juntou-se ao francês Alain Prost na McLaren-Honda, com o qual teve grande rivalidade. Senna venceu oito etapas daquela temporada e sagrou-se campeão mundial pela primeira vez. Após a polêmica final de 1989 com Prost que resultou na segunda colocação do torneio, ele retomou o título em 1990, vencendo novamente na temporada seguinte, tornando-se o piloto mais jovem a conquistar um tricampeonato na Fórmula 1 até então. Em 1993, Senna foi vice-campeão, vencendo cinco corridas. Transferiu-se para a Williams em 1994, onde disputou apenas três etapas, a última sendo o Grande Prêmio de San Marino, onde se acidentou e acabou morrendo. Ao todo, Senna participou de 161 grandes prêmios na Fórmula 1, alcançando 41 vitórias, 80 pódios, 65 pole positions e 19 voltas mais rápidas.
+        </div>
+      </div>
+    </div> 
+    
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/oyr4UkyH0ds?si=zeg7hfjcXj8AsT13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
+    <div class="py-2 w-full" style="margin: auto;">
+      <YouTube id="-sffU9rPpfc" />
+    </div>    
+  </div>
+
+
+  <div>
+    <div class="text-xl w-full font-bold mb-5 mt-5">Veja outros artigos relacionados</div>
+  </div>
+
+  {
+    last_posts.map((post) => (
+      <>
+        <HorizontalCard
+          title={post.data.title}
+          img={post.data.heroImage}
+          desc={post.data.description}
+          url={"/blog/" + createSlug(post.data.title, post.slug)}
+          target="_self"
+          badge={post.data.badge}
+        />
+        <div class="divider my-0" />
+      </>
+    ))
+  }
+</BaseLayout>
+
+<style>
+  h1 {
+    color: #246249ff;
+  }
+  h2 {
+    color: #2a3179ff;
+  }
+</style>

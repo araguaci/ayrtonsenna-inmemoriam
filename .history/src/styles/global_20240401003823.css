@@ -1,0 +1,24 @@
+.time-line-container>div:last-child .education__time>.education__line {
+    display: none;
+}
+.menu li {
+    border-radius: 7px !important;
+}
+h1 { 
+    color: #246249ff
+}
+h2 { 
+    color: #2A3179
+}
+body { 
+    color: #2A3179;
+    font-family: "Comic Sans MS", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+@media screen and (max-width: 768px) { body { font-size: 14px; }}
+@media screen and (min-width: 1280px) { body { font-size: 16px; }}
+
+/* #0BAC5E, #246249, #FDDE2E, #FACD34, #2A3179, #1C2C54 */
+.sideBarActiveItem {
+    color: #246249;
+    background-color: #FDDE2E;
+}

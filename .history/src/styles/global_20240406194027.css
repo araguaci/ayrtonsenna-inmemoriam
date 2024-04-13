@@ -1,0 +1,124 @@
+.time-line-container > div:last-child .education__time > .education__line {
+  display: none;
+}
+.menu li,
+blockquote {
+  border-radius: 7px !important;
+}
+blockquote {
+  margin-left: 3px !important;
+  margin-right: 3px !important;
+}
+h1 {
+  color: #246249ff;
+}
+h2 {
+  color: #2a3179;
+}
+html,
+body {
+  color: #2a3179;
+  font-family: "Comic Sans MS", "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: #f4f4f4 !important;
+}
+/*
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  body {
+    font-size: 16px;
+  }
+}
+*/
+
+/* #0BAC5E, #246249, #FDDE2E, #FACD34, #2A3179, #1C2C54 */
+.sideBarActiveItem,
+.sideBarActiveItem:hover {
+  color: #246249;
+  background-color: #fdde2e;
+}
+.menu li {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.menu li:hover {
+  background-color: #246249;
+  color: #fdde2e;
+}
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  vertical-align: middle;
+}
+.link-preview {
+  --link-preview-corners: 0.5em;
+  --link-preview-padding-inline: 0.75rem;
+  background-color: floralwhite;
+  color: darkblue;
+  font-family: sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.link-preview a {
+  color: purple;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3.9vmin !important;
+}
+h2 {
+  font-size: 3.6vmin !important;
+}
+h3 {
+  font-size: 3.3vmin !important;
+}
+div,
+p,
+span {
+  font-size: 3.1vmin;
+}
+
+.footer {
+    font-weight: 400;
+}
+
+/*https://scrollbar.app/*/
+
+body {
+  --sb-track-color: #232E33;
+  --sb-thumb-color: #6BAF8D;
+  --sb-size: 14px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 3px;
+  
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}

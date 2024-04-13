@@ -1,0 +1,16 @@
+.time-line-container>div:last-child .education__time>.education__line {
+    display: none;
+}
+.menu li {
+    border-radius: 7px !important;
+}
+h1 { 
+    color: #246249ff
+}
+h2 { 
+    color: #2A3179
+}
+body { 
+    color: #2A3179;
+    font-family: "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}

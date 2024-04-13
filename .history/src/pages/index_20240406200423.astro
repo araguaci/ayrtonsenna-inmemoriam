@@ -1,0 +1,313 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+import { getCollection } from "astro:content";
+import createSlug from "../lib/createSlug";
+import { YouTube } from "astro-embed";
+
+const posts = (await getCollection("blog")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const last_posts = posts.slice(0, 10);
+---
+
+<BaseLayout sideBarActiveItemID="home">
+  <div class="pb-12 mt-5">
+    <div class="text-lg py-1 font-bold">In Memoriam</div>
+    <div class="text-xl py-1 font-bold">Ayrton Senna</div>
+    <div class="text-x1 py-3 font-bold">
+      30 anos da passagem de Aryon Senna (34 anos)
+    </div>
+    <div class="py-2">
+      <div class="flex">
+        <div class="text-3xl mb-4 text-justify">
+          Ayrton Senna da Silva, um ícone do automobilismo, deixou um legado que
+          transcende o esporte. Sua paixão, dedicação e espírito competitivo são
+          lembrados e celebrados não só no Brasil, mas em todo o mundo. Senna
+          demonstrou que a determinação e o amor pelo que se faz são
+          fundamentais para superar desafios e alcançar o sucesso. Sua citação,
+          “Com seu poder mental, sua determinação, seu instinto e a experiência
+          também, você pode voar muito alto”, reflete a essência de sua
+          filosofia de vida e carreira.
+        </div>
+      </div>
+    </div>
+
+    <div class="py-2">
+      <div class="flex">
+        <div class="text-2xl mb-4 text-justify">
+          Sua memória continua viva, inspirando não apenas pilotos e entusiastas
+          do automobilismo, mas todos aqueles que buscam excelência e paixão em
+          suas próprias vidas. Ayrton Senna será sempre lembrado como um herói
+          nacional, um piloto exímio e um ser humano extraordinário cuja vida,
+          embora curta, foi vivida com intensidade e propósito.
+        </div>
+      </div>
+    </div>
+
+    <div class="py-2">
+      <div class="flex">
+        <div class="text-2xl mb-4 text-justify">
+          Este espaço é um tributo a um homem que não apenas dominou as pistas,
+          mas também conquistou corações ao redor do mundo com sua humanidade e
+          seu compromisso inabalável com a excelência.
+        </div>
+      </div>
+    </div>
+
+    <div class="py-2">
+      <div class="flex">
+        <blockquote
+          class="py-2 mb-5 text-justify w-full flex flex-wrap flex-col bg-white text-indigo-700 border-l-8 italic border-[#0BAC5E] px-4 py-3"
+        >
+          No ronco dos motores, ecoa um nome sem igual, Ayrton Senna, estrela de
+          um esporte sem rival. Na chuva, no sol, na pista, ele era o rei, Com
+          cada volta perfeita, um legado ele construiu, ei! Brasileiro
+          orgulhoso, de amarelo e verde vestido, Com garra e coragem, nunca foi
+          vencido. Seu espírito guerreiro, na memória está gravado, Em cada
+          coração brasileiro, eternamente celebrado. Trinta anos se passaram,
+          desde que ele se foi, Mas em nossos corações, Senna sempre herói. Sua
+          paixão pela vida, sua vontade de vencer, Nos ensina a cada dia, a
+          nunca desistir ou ceder. Voando alto, como só ele sabia, Senna nos
+          mostrou que a vida é uma ousadia. Que a paixão nos move, e o amor nos
+          guia, E que cada desafio, é uma nova melodia. Ayrton Senna, um nome
+          que ressoa com fervor, Um piloto, um ícone, um eterno campeão de
+          valor. Sua história nos inspira, seu legado nos motiva, A perseguir
+          nossos sonhos, com a mesma energia ativa.
+
+          <span
+            class="flex justify-end text-sm text-indigo-400 font-semibold pt-2"
+            >~~ 30 Anos Ayrton Senna
+          </span>
+        </blockquote>
+      </div>
+    </div>
+
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/oyr4UkyH0ds?si=zeg7hfjcXj8AsT13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
+    <div class="py-2 w-full" style="margin: auto;">
+      <YouTube id="82JsL9bCOgQ" />
+    </div>
+    <div class="mt-8 sucess">
+      <a class="btn" href="https://senna.com/en/silverstone-festival-to-honour-ayrton-senna-in-2024/" target="_blank">
+        Silverstone Festival to honour Ayrton Senna in 2024</a
+      >
+    </div>
+  </div>
+
+  <div>
+    <div class="text-xl w-full font-bold mb-5 mt-5">Depoimentos de Pilotos</div>
+  </div>
+
+  <div class="py-2">
+    <div class="flex rounded-md">
+      <blockquote
+        class="py-2 w-1/2 flex flex-wrap flex-col bg-white text-indigo-700 border-l-8 italic border-[#0BAC5E] px-4 py-3"
+      >
+        Ele foi o melhor piloto que já viveu.
+
+        <span
+          class="flex justify-end text-sm text-indigo-400 font-semibold pt-2"
+          >~~ Niki Lauda, 1994
+        </span>
+      </blockquote>
+      <blockquote
+        class="py-2 w-1/2 flex flex-wrap flex-col bg-white text-indigo-700 border-l-8 italic border-[#0BAC5E] px-4 py-3"
+      >
+        Ele pode ter sido o maior piloto de todos os tempos. Ayrton Senna não
+        tinha fraqueza.
+
+        <span
+          class="flex justify-end text-sm text-indigo-400 font-semibold pt-2"
+          >~~ Michael Andretti, 1994
+        </span>
+      </blockquote>
+    </div>
+  </div>
+
+  <div class="py-2">
+    <div class="flex">
+      <blockquote
+        class="py-2 w-1/2 flex flex-wrap flex-col bg-white text-indigo-700 border-l-8 italic border-[#0BAC5E] px-4 py-3"
+      >
+        Sem dúvida o melhor piloto em Grandes Prémios da atualidade.
+        <span
+          class="flex justify-end text-sm text-indigo-400 font-semibold pt-2"
+          >~~ Alan Jones, 1993</span
+        >
+      </blockquote>
+
+      <blockquote
+        class="py-2 w-1/2 flex flex-wrap flex-col bg-white text-indigo-700 border-l-8 italic border-[#0BAC5E] px-4 py-3"
+      >
+        Ele é o maior piloto de Grande Prêmio do momento.
+        <span
+          class="flex justify-end text-sm text-indigo-400 font-semibold pt-2"
+          >~~ John Watson, 1993
+        </span>
+      </blockquote>
+    </div>
+  </div>
+
+  <div class="py-2">
+    <div class="flex">
+      <blockquote
+        class="py-2 w-1/2 flex flex-wrap flex-col bg-white text-indigo-700 border-l-8 italic border-[#0BAC5E] px-4 py-3"
+      >
+        O melhor piloto em Grandes Prémios, o melhor piloto do mundo de longe.
+        <span
+          class="flex justify-end text-sm text-indigo-400 font-semibold pt-2"
+          >~~ James Hunt, 1993</span
+        >
+      </blockquote>
+      <blockquote
+        class="flex w-1/2 flex-wrap flex-col bg-white text-indigo-700 border-l-8 italic border-[#0BAC5E] px-4 py-3"
+      >
+        Senna é realmente o melhor piloto do mundo, não só o mais rápido.
+        <span
+          class="flex justify-end text-sm text-indigo-400 font-semibold pt-2"
+          >~~ Jackie Stewart, 1991</span
+        >
+      </blockquote>
+    </div>
+  </div>
+
+  <div class="py-2">
+    <div class="flex">
+      <blockquote
+        class="py-2 w-full flex flex-wrap flex-col bg-white text-indigo-700 border-l-8 italic border-[#0BAC5E] px-4 py-3"
+      >
+        Sua perda é impossível de quantificar. Todo mundo que já o conheceu em
+        qualquer capacidade sente que perdeu alguém muito especial.
+        <span
+          class="flex justify-end text-sm text-indigo-400 font-semibold pt-2"
+          >~~ Frank Williams, 1994
+        </span>
+      </blockquote>
+    </div>
+  </div>
+
+  <div class="py-2">
+    <div class="flex">
+      <blockquote
+        class="py-2 w-full flex flex-wrap flex-col bg-white text-indigo-700 border-l-8 italic border-[#0BAC5E] px-4 py-3"
+      >
+        Ele foi provavelmente o campeão mais rápido que já vi. Ele estava sempre
+        esticando o elástico. Meu Deus foi rápido.
+        <span
+          class="flex justify-end text-sm text-indigo-400 font-semibold pt-2"
+          >~~ Jackie Stewart, 2004
+        </span>
+      </blockquote>
+    </div>
+  </div>
+
+  <div class="py-2">
+    <div class="flex">
+      <blockquote
+        class="py-2 w-full flex flex-wrap flex-col bg-white text-indigo-700 border-l-8 italic border-[#0BAC5E] px-4 py-3"
+      >
+        Tentei encontrar pontos fracos no Senna, mas não consegui. Ele está 100%
+        em tudo. Aprendi muito com ele, então para mim foram três anos bons. E
+        ainda gosto do Senna. A gente se divertiu muito, uma boa relação.
+
+        <span
+          class="flex justify-end text-sm text-indigo-400 font-semibold pt-2"
+          >~~ Gerhard Berger, 1993
+        </span>
+      </blockquote>
+    </div>
+  </div>
+
+  <div class="py-2">
+    <div class="flex">
+      <blockquote
+        class="py-2 w-full flex flex-wrap flex-col bg-white text-indigo-700 border-l-8 italic border-[#0BAC5E] px-4 py-3"
+      >
+        O Ayrton foi a pessoa mais incompreendida por aí porque ele recebeu um
+        rap tão ruim na mídia. Posso garantir que ele era uma boa pessoa. Ele me
+        apoiou muito no ano passado.
+
+        <span
+          class="flex justify-end text-sm text-indigo-400 font-semibold pt-2"
+          >~~ Michael Andretti, 1994
+        </span>
+      </blockquote>
+    </div>
+  </div>
+
+  <div class="py-2">
+    <div class="flex">
+      <blockquote
+        class="py-2 w-full flex flex-wrap flex-col bg-white text-indigo-700 border-l-8 italic border-[#0BAC5E] px-4 py-3"
+      >
+        Ayrton Senna é um gênio. Defino gênio como o lado certo do
+        desequilíbrio. Ele é altamente desenvolvido a ponto de estar quase no
+        limite. Foi por um triz.
+
+        <span
+          class="flex justify-end text-sm text-indigo-400 font-semibold pt-2"
+          >~~ Martin Brundle, 1993
+        </span>
+      </blockquote>
+    </div>
+  </div>
+
+  <div>
+    <div class="text-xl w-full font-bold mb-5 mt-5">
+      My last projects {"</>"}
+    </div>
+  </div>
+
+  <HorizontalCard
+    title="Demo Project 1"
+    img="/post_img.webp"
+    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    url="#"
+    badge="NEW"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Demo Project 2"
+    img="/post_img.webp"
+    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    url="#"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Demo Project 3"
+    img="/post_img.webp"
+    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    url="#"
+    badge="FOSS"
+  />
+
+  <div>
+    <div class="text-xl w-full font-bold mb-5 mt-5">Latest from blog</div>
+  </div>
+
+  {
+    last_posts.map((post) => (
+      <>
+        <HorizontalCard
+          title={post.data.title}
+          img={post.data.heroImage}
+          desc={post.data.description}
+          url={"/blog/" + createSlug(post.data.title, post.slug)}
+          target="_self"
+          badge={post.data.badge}
+        />
+        <div class="divider my-0" />
+      </>
+    ))
+  }
+</BaseLayout>
+
+<style>
+  h1 {
+    color: #246249ff;
+  }
+  h2 {
+    color: #2a3179ff;
+  }
+</style>

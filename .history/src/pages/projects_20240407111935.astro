@@ -1,0 +1,60 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title="Projects" sideBarActiveItemID="projects">
+  <div>
+    <div class="text-xl w-full font-bold mb-5">Projetos Artes do Sul</div>
+  </div>
+  <HorizontalCard
+    title="Portfolio Artes do Sul"
+    img="https://www.artesdosul.com/images/thumb/portfolio-particles.jpg"
+    desc="REACT / NODE / PARTICLES. A mais recente tecnologia para criação de websites."
+    url="https://portfolio-particles.vercel.app/"
+    badge="REACT"
+  />
+  <div class="divider my-0"></div>
+
+  <HorizontalCard
+    title="Jornada Seja Grato"
+    img="https://www.artesdosul.com/images/thumb/farol.jpg"
+    desc="SEJA GRATO - FATOS ESQUECIDOS - BREVE JORNADA DE 200 ANOS."
+    url="https://jornada-seja-grato-araguaci.vercel.app"
+  />
+
+  <div class="divider my-0"></div>
+
+  <HorizontalCard
+    title="Meditação Terra Earth Gaia"
+    img="https://www.artesdosul.com/images/thumb/gaia.png"
+    desc="Descubra seu Potencial. Planeta Terra Transmutado, Urantia, Gaia, Joia da Galáxia, Love Earth..."
+    url="http://gaia.artesdosul.com"
+  />
+
+  <div>
+    <div class="text-xl w-full font-bold mb-5 mt-10">Projects Header</div>
+  </div>
+
+  <HorizontalCard
+    title="Demo Project 3"
+    img="/post_img.webp"
+    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    url="#"
+    badge="FOSS"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Demo Project 4"
+    img="/post_img.webp"
+    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    url="#"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Demo Project 5"
+    img="/post_img.webp"
+    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    url="#"
+  />
+</BaseLayout>

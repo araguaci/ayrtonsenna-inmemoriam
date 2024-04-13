@@ -1,0 +1,15 @@
+.time-line-container>div:last-child .education__time>.education__line {
+    display: none;
+}
+.menu li {
+    border-radius: 7px !important;
+}
+h1 { 
+    color: #246249ff
+}
+h2 { 
+    color: #2A3179ff
+}
+body { font-size: calc(16px + (24 - 14) * ((100vw - 768px) / (1280 - 768))); }
+@media screen and (max-width: 768px) { body { font-size: 14px; }}
+@media screen and (min-width: 1180px) { body { font-size: 24px; }}

@@ -1,0 +1,32 @@
+---
+title: "1994 - Williams FW16"
+description: "É notável por ser o último carro dirigido pelo tricampeão mundial Ayrton Senna antes de seu acidente fatal durante o Grande Prêmio de San Marino de 1994."
+custom_link_label: ""
+custom_link: ""
+updatedDate: "May 1 1994"
+pricing: ""
+badge: ""
+checkoutUrl: ""
+heroImage: "/williams_fw16_a.jpg"
+tags: ["Williams"]
+---
+
+O Williams FW16 é um carro de Fórmula 1 projetado por Adrian Newey para a equipe britânica Williams. O FW16 competiu na temporada de Fórmula 1 de 1994, com a Williams ganhando o Campeonato de Construtores e o piloto britânico Damon Hill terminando como vice-campeão no Campeonato de Pilotos¹. É notável por ser o último carro dirigido pelo tricampeão mundial Ayrton Senna antes de seu acidente fatal durante o Grande Prêmio de San Marino de 1994¹.
+
+Aqui estão algumas especificações técnicas do Williams FW16:
+- **Chassi**: Monocoque de fibra de carbono e aramida¹.
+- **Suspensão**: Dianteira com mola de torção interna Williams, duplo wishbone, operada por push-rod bellcrank; traseira com mola helicoidal interna Williams, duplo wishbone, operada por push-rod bellcrank¹.
+- **Motor**: Renault RS6 / RS6B / RS6C, V10 de 3.500 cc, aspiração natural, montado no meio, longitudinalmente¹.
+- **Transmissão**: Williams transversal sequencial semi-automática de 6 velocidades¹.
+- **Potência**: 790–830 hp a 14.300 rpm¹.
+- **Combustível e Pneus**: Elf e Goodyear¹.
+
+O FW16 foi projetado em torno das principais mudanças de regulamentação introduzidas pela FIA na entressafra, que proibiam os diversos dispositivos eletrônicos que vinham sendo utilizados pelos carros da frente nas duas temporadas anteriores¹. O carro era uma evolução passiva do FW15C que o precedeu, com carroceria revisada, incluindo uma tampa de motor de perfil baixo, sidepods mais altos, eixo de transmissão fechado e um elemento inferior de asa traseira anedral, que já havia sido insinuado no FW15C¹.
+
+
+## Referências
+
+  - [Williams FW16 - Wikipedia](https://en.wikipedia.org/wiki/Williams_FW16)
+  - [O que estava errado na Williams de Ayrton Senna em 1994?](https://motorsport.uol.com.br/f1/news/o-que-estava-errado-na-williams-de-ayrton-senna-em-1994/6500526/)
+  - [Williams FW16 – Wikipédia, a enciclopédia livr](https://pt.wikipedia.org/wiki/Williams_FW16)
+  - [Williams Renault FW16 1994 gp Brasil Ayrton Senna 1:18 - Americanas](https://www.americanas.com.br/produto/5650396238/williams-renault-fw16-1994-gp-brasil-ayrton-senna-1-18)
