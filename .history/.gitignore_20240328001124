@@ -3,7 +3,6 @@ dist/
 .cache
 # dependencies
 node_modules/
-screenshot_astrofy-template.netlify.app.jpeg
 
 # logs
 npm-debug.log*

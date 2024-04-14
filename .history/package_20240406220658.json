@@ -1,6 +1,6 @@
 {
-  "name": "ayrtonsenna-inmemoriam",
-  "description": "Um pequena lembrança da carreira e vitórias apos 30 anos da passagem de Aryon Senna (34) em 1 de maio de 1994 - Imola, Itália.",
+  "name": "astrofy",
+  "description": "Astrofy is a free and open-source template for your Personal Portfolio Website built with Astro and TailwindCSS. Create in minutes a website with Blog, CV, Project Section, Store and RSS Feed.",
   "type": "module",
   "version": "3.0.0",
   "private": true,
