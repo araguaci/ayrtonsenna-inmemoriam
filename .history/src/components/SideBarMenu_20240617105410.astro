@@ -1,0 +1,35 @@
+---
+const { sideBarActiveItemID } = Astro.props;
+const activeClass = "sideBarActiveItem"; // For primary color replace with `active` class
+---
+
+<ul class="menu grow shrink menu-md overflow-y-auto text-xl">
+    <li><a class="py-3 text-base" id="home" href="/">Home</a></li>
+    <li><a class="py-3 text-base" id="jorney" href="/jorney">Carreira</a></li>
+    <li><a class="py-3 text-base" id="winner" href="/winner">Vitórias</a></li>
+    <!-- <li><a class="py-3 text-base" id="services" href="/services">Services</a></li> -->
+    <li><a class="py-3 text-base" id="store" href="/store">Carros</a></li>
+    <li><a class="py-3 text-base" id="store" href="/filme">Filme</a></li>
+    <li><a class="py-3 text-base" id="blog" href="/blog/">Ayrton Senna</a></li>
+    <!-- <li><a class="py-3 text-base" id="cv" href="/cv">CV</a></li> -->
+    <li class="mt-5"><a class="py-3 text-base" id="projects" href="/projects">Outros Projetos</a></li>
+</ul>
+<!-- GTranslate: https://gtranslate.io/ -->
+<div id="divflag" class="divflag" style="position:fixed; top: 0px; left: 10px; z-index: 1000;">
+	<a href="#" onclick="doGTranslate('pt|en');return false;" title="English" class="gflag nturl" style="background-position:-0px -0px;"><img src="//gtranslate.net/flags/blank.png" height="24" width="24" alt="English" /></a><a href="#" onclick="doGTranslate('pt|ja');return false;" title="Japanese" class="gflag nturl" style="background-position:-0px -0px;"><img src="//gtranslate.net/flags/blank.png" height="24" width="24" alt="Japanese" /></a><a href="#" onclick="doGTranslate('pt|fr');return false;" title="French" class="gflag nturl" style="background-position:-200px -100px;"><img src="//gtranslate.net/flags/blank.png" height="24" width="24" alt="French" /></a><a href="#" onclick="doGTranslate('pt|de');return false;" title="German" class="gflag nturl" style="background-position:-300px -100px;"><img src="//gtranslate.net/flags/blank.png" height="24" width="24" alt="German" /></a><a href="#" onclick="doGTranslate('pt|it');return false;" title="Italian" class="gflag nturl" style="background-position:-600px -100px;"><img src="//gtranslate.net/flags/blank.png" height="24" width="24" alt="Italian" /></a><a href="#" onclick="doGTranslate('pt|pt');return false;" title="Portuguese" class="gflag nturl" style="background-position:-300px -200px;"><img src="//gtranslate.net/flags/blank.png" height="24" width="24" alt="Portuguese" /></a><a href="#" onclick="doGTranslate('pt|ru');return false;" title="Russian" class="gflag nturl" style="background-position:-500px -200px;"><img src="//gtranslate.net/flags/blank.png" height="24" width="24" alt="Russian" /></a><a href="#" onclick="doGTranslate('pt|es');return false;" title="Spanish" class="gflag nturl" style="background-position:-600px -200px;"><img src="//gtranslate.net/flags/blank.png" height="24" width="24" alt="Spanish" /></a>
+</div>
+<style type="text/css"> 
+.divflag img, #divflag img { margin: 2px !important; }
+a.gflag {vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-repeat;background-image:url(//gtranslate.net/flags/24.png);}
+a.gflag img {border:0;}
+a.gflag:hover {background-image:url(//gtranslate.net/flags/24a.png);}
+#goog-gt-tt {display:none !important;}
+.goog-te-banner-frame {display:none !important;}
+.goog-te-menu-value:hover {text-decoration:none !important;}
+body {top:0 !important;}
+#google_translate_element2 {display:none!important;} 
+</style>
+<script define:vars={{ sideBarActiveItemID: sideBarActiveItemID, activeClass: activeClass }}>
+const activeItemElem = document.getElementById(sideBarActiveItemID);
+activeItemElem && activeItemElem.classList.add(activeClass);
+</script>

@@ -6,7 +6,7 @@ const { sideBarActiveItemID } = Astro.props;
 ---
 
 <div class="drawer-side z-40">
-  <label for="my-drawer" class="drawer-overlay"></label>
+  <label for="my-drawer" class="drawer-overlay">aaa</label>
   <aside class="px-2 pt-2 h-auto min-h-full w-[19rem] bg-[#2A3179] text-[#fdde2e] flex flex-col">    
     <div class="w-fit mx-auto mt-5 mb-6">
       <a href="/">
@@ -15,7 +15,7 @@ const { sideBarActiveItemID } = Astro.props;
             <Image class="mask mask-circle" format="webp" width={300} height={300} src="/ayrton_senna.jpg" alt="Ayrton Senna da Silva" />
           </div>
         </div>        
-      </a>      
+      </a>
     </div>
     <SideBarMenu sideBarActiveItemID={sideBarActiveItemID} />  
     <SideBarFooter />

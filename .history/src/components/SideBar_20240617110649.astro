@@ -6,7 +6,9 @@ const { sideBarActiveItemID } = Astro.props;
 ---
 
 <div class="drawer-side z-40">
-  <label for="my-drawer" class="drawer-overlay"></label>
+  <label for="my-drawer" class="drawer-overlay"><div class="gtranslate_wrapper"></div>
+    <script>window.gtranslateSettings = {"default_language":"pt","languages":["pt","fr","de","it","es","ja","en","nl","zh-CN","hi","ko","no","pl"],"wrapper_selector":".gtranslate_wrapper","flag_style":"3d","alt_flags":{"en":"usa","pt":"brazil","es":"argentina"}}</script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script></label>
   <aside class="px-2 pt-2 h-auto min-h-full w-[19rem] bg-[#2A3179] text-[#fdde2e] flex flex-col">    
     <div class="w-fit mx-auto mt-5 mb-6">
       <a href="/">
@@ -15,7 +17,7 @@ const { sideBarActiveItemID } = Astro.props;
             <Image class="mask mask-circle" format="webp" width={300} height={300} src="/ayrton_senna.jpg" alt="Ayrton Senna da Silva" />
           </div>
         </div>        
-      </a>      
+      </a>
     </div>
     <SideBarMenu sideBarActiveItemID={sideBarActiveItemID} />  
     <SideBarFooter />

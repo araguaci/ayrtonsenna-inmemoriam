@@ -1,0 +1,40 @@
+---
+import SideBarFooter from "./SideBarFooter.astro";
+import { Image } from "astro:assets";
+import SideBarMenu from "./SideBarMenu.astro";
+const { sideBarActiveItemID } = Astro.props;
+---
+
+<div class="drawer-side z-40">
+  <label for="my-drawer" class="drawer-overlay"></label>
+  <aside class="px-2 pt-2 h-auto min-h-full w-[19rem] bg-[#2A3179] text-[#fdde2e] flex flex-col">
+    <div class="w-fit mx-auto mt-5 mb-6">
+      <a href="/">
+        <div class="avatar transition ease-in-out hover:scale-[102%] block m-auto">
+          <div class="w-[8.5rem]">
+            <Image class="mask mask-circle" format="webp" width={300} height={300} src="/ayrton_senna.jpg" alt="Ayrton Senna da Silva" />
+          </div>
+        </div>
+        <!-- GTranslate: https://gtranslate.io/ -->
+<div id="divflag" class="divflag" style="position:fixed; top: 0px; left: 10px; z-index: 1000;">
+	<a href="#" onclick="doGTranslate('pt|en');return false;" title="English" class="gflag nturl" style="background-position:-0px -0px;"><img src="//gtranslate.net/flags/blank.png" height="24" width="24" alt="English" /></a><a href="#" onclick="doGTranslate('pt|ja');return false;" title="Japanese" class="gflag nturl" style="background-position:-0px -0px;"><img src="//gtranslate.net/flags/blank.png" height="24" width="24" alt="Japanese" /></a><a href="#" onclick="doGTranslate('pt|fr');return false;" title="French" class="gflag nturl" style="background-position:-200px -100px;"><img src="//gtranslate.net/flags/blank.png" height="24" width="24" alt="French" /></a><a href="#" onclick="doGTranslate('pt|de');return false;" title="German" class="gflag nturl" style="background-position:-300px -100px;"><img src="//gtranslate.net/flags/blank.png" height="24" width="24" alt="German" /></a><a href="#" onclick="doGTranslate('pt|it');return false;" title="Italian" class="gflag nturl" style="background-position:-600px -100px;"><img src="//gtranslate.net/flags/blank.png" height="24" width="24" alt="Italian" /></a><a href="#" onclick="doGTranslate('pt|pt');return false;" title="Portuguese" class="gflag nturl" style="background-position:-300px -200px;"><img src="//gtranslate.net/flags/blank.png" height="24" width="24" alt="Portuguese" /></a><a href="#" onclick="doGTranslate('pt|ru');return false;" title="Russian" class="gflag nturl" style="background-position:-500px -200px;"><img src="//gtranslate.net/flags/blank.png" height="24" width="24" alt="Russian" /></a><a href="#" onclick="doGTranslate('pt|es');return false;" title="Spanish" class="gflag nturl" style="background-position:-600px -200px;"><img src="//gtranslate.net/flags/blank.png" height="24" width="24" alt="Spanish" /></a>
+</div>
+<style type="text/css">
+<!--
+.divflag img, #divflag img { margin: 2px !important; }
+a.gflag {vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-repeat;background-image:url(//gtranslate.net/flags/24.png);}
+a.gflag img {border:0;}
+a.gflag:hover {background-image:url(//gtranslate.net/flags/24a.png);}
+#goog-gt-tt {display:none !important;}
+.goog-te-banner-frame {display:none !important;}
+.goog-te-menu-value:hover {text-decoration:none !important;}
+body {top:0 !important;}
+#google_translate_element2 {display:none!important;}
+-->
+</style>
+      </a>
+    </div>
+    <SideBarMenu sideBarActiveItemID={sideBarActiveItemID} />
+    <SideBarFooter />
+  </aside>
+</div>
