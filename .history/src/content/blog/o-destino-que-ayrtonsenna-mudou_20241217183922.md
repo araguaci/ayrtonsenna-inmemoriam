@@ -210,5 +210,5 @@ Até hoje, em suas entrevistas sobre Senna, Érik se enche de culpa.
 
 ---
 
+Autora: [Laura](https://twitter.com/formulalau)
 Source: [laura 🏁](https://threadreaderapp.com/thread/1784699062140223638.html)
-Autora: [laura](https://twitter.com/formulalau)

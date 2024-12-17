@@ -6,6 +6,7 @@ heroImage: "https://pbs.twimg.com/media/GMRPHeVXgAAE9vi.jpg"
 tags: ["Ímola", "F1", "1994", "Ayrton Senna"]
 ---
 
+Autora: [Laura](https://twitter.com/formulalau)
 
 ![Image](https://pbs.twimg.com/media/GMRPIeuWAAAeUNY.jpg)
 
@@ -209,6 +210,4 @@ Até hoje, em suas entrevistas sobre Senna, Érik se enche de culpa.
  
 
 ---
-
 Source: [laura 🏁](https://threadreaderapp.com/thread/1784699062140223638.html)
-Autora: [laura](https://twitter.com/formulalau)
